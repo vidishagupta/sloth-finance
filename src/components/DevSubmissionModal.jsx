@@ -35,8 +35,8 @@ Most people lose hundreds or thousands of dollars every year not because they la
 ---
 
 ## Demo
-- **Live Demo Web App:** [https://sloth-finance.vercel.app](https://sloth-finance.vercel.app)
-- **Render Backend Blueprint:** [https://sloth-finance.onrender.com](https://sloth-finance.onrender.com)
+- **Live Demo Web App:** [https://vidishagupta.github.io/sloth-finance/](https://vidishagupta.github.io/sloth-finance/)
+- **GitHub Repository:** [https://github.com/vidishagupta/sloth-finance](https://github.com/vidishagupta/sloth-finance)
 
 ---
 

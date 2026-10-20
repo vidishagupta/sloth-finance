@@ -12,7 +12,7 @@
 
 <br/>
 
-**[🌐 Live Interactive Demo](https://sloth-finance.vercel.app)** • **[🚀 Render Blueprint Deploy](https://render.com)** • **[📝 DEV Submission Writeup](https://dev.to)**
+**[🌐 Live Interactive Demo](https://vidishagupta.github.io/sloth-finance/)** • **[🚀 Render Blueprint Deploy](https://render.com)** • **[📝 DEV Submission Writeup](https://dev.to)**
 
 </div>
 
