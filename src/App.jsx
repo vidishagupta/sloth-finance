@@ -6,7 +6,7 @@ import SubscriptionTable from './components/SubscriptionTable';
 import ForecastChart from './components/ForecastChart';
 import LetterModal from './components/LetterModal';
 import OpenInnovationModal from './components/OpenInnovationModal';
-import { analyzeStatement } from './utils/aiEngine';
+import { analyzeStatement, runClientNativeAnalysis } from './utils/aiEngine';
 import { SAMPLE_DATASETS } from './utils/sampleData';
 
 export default function App() {
@@ -18,6 +18,35 @@ export default function App() {
   
   // Modals
   const [showOpenAIModal, setShowOpenAIModal] = useState(false);
+
+  // Support URL parameters for high-definition demo scenes
+  React.useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const scene = params.get('scene');
+    if (!scene || scene === '1') return;
+
+    const sample = SAMPLE_DATASETS.forgetful_dev;
+    const result = runClientNativeAnalysis(sample.transactions);
+    setAnalysisData(result);
+    setSourceName(sample.name);
+
+    if (scene === '3') {
+      setTimeout(() => {
+        const el = document.getElementById('subscriptions-table-section');
+        if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+      }, 200);
+    } else if (scene === '4') {
+      const sub = result.analysis.subscriptions.find(s => s.has_price_creep) || result.analysis.subscriptions[0];
+      setSelectedSubscription(sub);
+    } else if (scene === '5') {
+      setTimeout(() => {
+        const el = document.getElementById('forecast-chart-section');
+        if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+      }, 200);
+    } else if (scene === '6') {
+      setShowOpenAIModal(true);
+    }
+  }, []);
 
   const handleAnalyze = async (transactions, name) => {
     setIsLoading(true);

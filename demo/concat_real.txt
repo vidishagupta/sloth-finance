@@ -1,0 +1,13 @@
+file 'real_frames/scene1_hero.png'
+duration 26.5
+file 'real_frames/scene2_scorecard.png'
+duration 23.0
+file 'real_frames/scene3_table.png'
+duration 19.0
+file 'real_frames/scene4_letter.png'
+duration 23.0
+file 'real_frames/scene5_forecast.png'
+duration 10.0
+file 'real_frames/scene6_privacy.png'
+duration 7.5
+file 'real_frames/scene6_privacy.png'
