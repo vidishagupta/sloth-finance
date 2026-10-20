@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#3d5f58" stroke="#10201d" stroke-width="4"/>
+  <circle cx="50" cy="48" r="32" fill="#d9c5b2"/>
+  <ellipse cx="40" cy="48" rx="10" ry="7" fill="#6f5643" transform="rotate(-15 40 48)"/>
+  <ellipse cx="60" cy="48" rx="10" ry="7" fill="#6f5643" transform="rotate(15 60 48)"/>
+  <!-- Sleeping eyes -->
+  <path d="M35 48 Q 40 54 45 48" stroke="#10201d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M55 48 Q 60 54 65 48" stroke="#10201d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Sloth nose -->
+  <ellipse cx="50" cy="56" rx="6" ry="4" fill="#10201d"/>
+  <!-- Sloth gentle smile -->
+  <path d="M46 62 Q 50 66 54 62" stroke="#10201d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Gold coin in mouth/claw -->
+  <circle cx="72" cy="70" r="14" fill="#f5b726" stroke="#10201d" stroke-width="3"/>
+  <text x="72" y="75" font-family="monospace" font-size="14" font-weight="bold" fill="#10201d" text-anchor="middle">$</text>
+</svg>
