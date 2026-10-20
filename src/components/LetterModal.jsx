@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { X, Copy, Mail, Download, Check, Sparkles, ShieldAlert, CheckCircle2 } from 'lucide-react';
+import { X, Copy, Mail, Download, Check, Sparkles, CheckCircle2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { generateCancellationLetter } from '../utils/aiEngine';
 
 export default function LetterModal({ subscription, onClose, onMarkCancelled, isCancelled }) {
-  if (!subscription) return null;
-
   const [userName, setUserName] = useState('Alex Mercer');
   const [userEmail, setUserEmail] = useState('alex.mercer@gmail.com');
   const [accountId, setAccountId] = useState('SUB-99482');
   const [copied, setCopied] = useState(false);
+
+  if (!subscription) return null;
 
   const letterData = generateCancellationLetter(subscription, {
     name: userName,

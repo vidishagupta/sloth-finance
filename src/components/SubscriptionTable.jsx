@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, TrendingUp, CheckCircle, Mail, Sparkles, Filter, Search, Ban } from 'lucide-react';
+import { AlertTriangle, TrendingUp, CheckCircle, Mail, Sparkles, Search, Ban } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 export default function SubscriptionTable({ subscriptions = [], onOpenLetter, onToggleCancel, cancelledIds = new Set() }) {

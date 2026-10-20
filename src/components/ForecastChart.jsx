@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TrendingDown, Sparkles, DollarSign } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 export default function ForecastChart({ monthlyBleed = 150 }) {
   const [activePoint, setActivePoint] = useState(null);

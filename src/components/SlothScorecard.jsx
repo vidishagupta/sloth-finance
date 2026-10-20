@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flame, DollarSign, AlertTriangle, TrendingUp, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Flame, DollarSign, AlertTriangle, TrendingUp, Sparkles } from 'lucide-react';
 import SlothMascot from './SlothMascot';
 
 export default function SlothScorecard({ analysis, audit, sourceName }) {
@@ -8,7 +8,6 @@ export default function SlothScorecard({ analysis, audit, sourceName }) {
     sloth_rating_label,
     total_monthly_bleed,
     yearly_bleed,
-    three_year_bleed,
     stealth_creep_loss,
     zombie_count
   } = analysis;

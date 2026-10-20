@@ -1,7 +1,7 @@
 import React from 'react';
-import { ShieldCheck, FileText, RefreshCw, Sparkles, Award } from 'lucide-react';
+import { ShieldCheck, RefreshCw, Play } from 'lucide-react';
 
-export default function Navbar({ onOpenOpenAIModal, onOpenDevModal, onReset, hasData }) {
+export default function Navbar({ onOpenOpenAIModal, onReset, hasData }) {
   return (
     <header className="navbar-container">
       <div className="container navbar-content">
@@ -28,6 +28,17 @@ export default function Navbar({ onOpenOpenAIModal, onOpenDevModal, onReset, has
 
         {/* Action Buttons */}
         <div className="navbar-actions">
+          <a
+            href="https://youtu.be/a590pPb03dM"
+            target="_blank"
+            rel="noreferrer"
+            className="nav-btn nav-btn-demo"
+            title="Watch 1-Minute Walkthrough Video on YouTube"
+          >
+            <Play size={13} fill="var(--color-coral)" color="var(--color-coral)" />
+            <span>Watch Demo</span>
+          </a>
+
           <button 
             className="nav-btn"
             onClick={onOpenOpenAIModal}
@@ -142,11 +153,21 @@ export default function Navbar({ onOpenOpenAIModal, onOpenDevModal, onReset, has
           font-size: 0.85rem;
           font-weight: 600;
           cursor: pointer;
+          text-decoration: none;
           transition: all 0.15s ease;
         }
         .nav-btn:hover {
           background: var(--color-sage);
           border-color: var(--color-gold);
+        }
+        .nav-btn-demo {
+          background: rgba(233, 123, 119, 0.12);
+          border-color: rgba(233, 123, 119, 0.35);
+          color: var(--text-main);
+        }
+        .nav-btn-demo:hover {
+          background: rgba(233, 123, 119, 0.22);
+          border-color: var(--color-coral);
         }
         .nav-btn-gold {
           background: rgba(245, 183, 38, 0.12);

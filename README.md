@@ -9,12 +9,20 @@
 [![Google Gemma 2](https://img.shields.io/badge/Google-Gemma_2_Open--Weights-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/gemma)
 [![Render](https://img.shields.io/badge/Deploy-Render_Blueprint-46e3b7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge)](LICENSE)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/a590pPb03dM)
 
 <br/>
 
-**[🌐 Live Interactive Demo](https://vidishagupta.github.io/sloth-finance/)** • **[🚀 Render Blueprint Deploy](https://render.com)** • **[📝 DEV Submission Writeup](https://dev.to)**
+**[🌐 Live Interactive Demo](https://vidishagupta.github.io/sloth-finance/)** • **[🎥 Watch 1-Min Video Demo](https://youtu.be/a590pPb03dM)** • **[🚀 Render Blueprint Deploy](https://render.com)**
 
 </div>
+
+---
+
+## 🎥 1-Minute Video Walkthrough
+
+[![SlothFinance Demo Video](https://raw.githubusercontent.com/vidishagupta/sloth-finance/main/demo/real_frames/scene1_hero.png)](https://youtu.be/a590pPb03dM)
+*(Click above to watch the 1-minute full walkthrough with AI voiceover and synchronized subtitles)*
 
 ---
 
