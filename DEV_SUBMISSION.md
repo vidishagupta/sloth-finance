@@ -12,7 +12,8 @@ canonical_url: https://vidishagupta.github.io/sloth-finance/
 ---
 
 ### 🦥 Quick Links
-* 🌐 **Live Interactive App:** [https://vidishagupta.github.io/sloth-finance/](https://vidishagupta.github.io/sloth-finance/)
+* 🌐 **Live Web Application (GitHub Pages):** [https://vidishagupta.github.io/sloth-finance/](https://vidishagupta.github.io/sloth-finance/)
+* ⚡ **High-Speed Live Mirror (Vercel):** [https://sloth-finance-ten.vercel.app](https://sloth-finance-ten.vercel.app)
 * 📦 **GitHub Repository:** [https://github.com/vidishagupta/sloth-finance](https://github.com/vidishagupta/sloth-finance)
 * 🎥 **1-Minute Demo Video:** [https://youtu.be/a590pPb03dM](https://youtu.be/a590pPb03dM)
 
@@ -180,7 +181,8 @@ Here is why open-source AI is **mandatory** for financial applications:
 
 ## 🚀 Live Demo & Repository
 
-* 🌐 **Live Web Application:** [https://vidishagupta.github.io/sloth-finance/](https://vidishagupta.github.io/sloth-finance/)
+* 🌐 **Live Web Application (GitHub Pages):** [https://vidishagupta.github.io/sloth-finance/](https://vidishagupta.github.io/sloth-finance/)
+* ⚡ **High-Speed Live Mirror (Vercel):** [https://sloth-finance-ten.vercel.app](https://sloth-finance-ten.vercel.app)
 * 📦 **GitHub Source Code:** [https://github.com/vidishagupta/sloth-finance](https://github.com/vidishagupta/sloth-finance)
 * 🎥 **YouTube Video Walkthrough:** [https://youtu.be/a590pPb03dM](https://youtu.be/a590pPb03dM)
 
