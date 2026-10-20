@@ -11,8 +11,8 @@ export default function OpenInnovationModal({ onClose }) {
               <ShieldCheck size={24} color="var(--color-green)" />
             </div>
             <div>
-              <div className="badge-open">Open-Source AI Manifesto</div>
-              <h3 className="modal-title">Why Open Innovation Matters for SlothFinance</h3>
+              <div className="badge-open">Zero-Knowledge Financial AI</div>
+              <h3 className="modal-title">Why Open-Source AI is Mandatory for Banking</h3>
             </div>
           </div>
 
@@ -23,7 +23,7 @@ export default function OpenInnovationModal({ onClose }) {
 
         <div className="manifesto-content">
           <p className="manifesto-lede">
-            The core prompt of Hacktoberfest Week 3 asks: <em>"Why does open innovation matter for what you built? What did it make possible that a closed API wouldn't?"</em>
+            SlothFinance is built on a zero-knowledge, local-first foundation: <strong>financial audit intelligence must operate without shipping your private bank records to third-party corporate servers.</strong>
           </p>
 
           <div className="pillar-grid">

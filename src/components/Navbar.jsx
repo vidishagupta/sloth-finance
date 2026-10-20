@@ -20,10 +20,10 @@ export default function Navbar({ onOpenOpenAIModal, onOpenDevModal, onReset, has
           </div>
         </div>
 
-        {/* Hacktoberfest Theme Pill */}
+        {/* AI Engine Status Pill */}
         <div className="theme-pill">
           <span className="theme-dot"></span>
-          <span>Hacktoberfest Week 3: <strong>Slow & Steady</strong></span>
+          <span>Dual Engine: <strong>TabPFN-3.5</strong> + <strong>Gemma 2</strong></span>
         </div>
 
         {/* Action Buttons */}
@@ -31,19 +31,10 @@ export default function Navbar({ onOpenOpenAIModal, onOpenDevModal, onReset, has
           <button 
             className="nav-btn"
             onClick={onOpenOpenAIModal}
-            title="Learn why Open-Source AI is critical for financial privacy"
+            title="Inspect 100% On-Device Financial Privacy Architecture"
           >
             <ShieldCheck size={16} color="var(--color-green)" />
-            <span>Why Open AI?</span>
-          </button>
-
-          <button 
-            className="nav-btn nav-btn-gold"
-            onClick={onOpenDevModal}
-            title="Generate DEV.to Challenge Submission Post"
-          >
-            <Award size={16} />
-            <span>DEV Submission</span>
+            <span>Privacy & Architecture</span>
           </button>
 
           {hasData && (
@@ -53,7 +44,7 @@ export default function Navbar({ onOpenOpenAIModal, onOpenDevModal, onReset, has
               title="Reset analysis and load new statement"
             >
               <RefreshCw size={15} />
-              <span>New Scan</span>
+              <span>New Audit</span>
             </button>
           )}
 

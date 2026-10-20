@@ -6,7 +6,6 @@ import SubscriptionTable from './components/SubscriptionTable';
 import ForecastChart from './components/ForecastChart';
 import LetterModal from './components/LetterModal';
 import OpenInnovationModal from './components/OpenInnovationModal';
-import DevSubmissionModal from './components/DevSubmissionModal';
 import { analyzeStatement } from './utils/aiEngine';
 import { SAMPLE_DATASETS } from './utils/sampleData';
 
@@ -19,7 +18,6 @@ export default function App() {
   
   // Modals
   const [showOpenAIModal, setShowOpenAIModal] = useState(false);
-  const [showDevModal, setShowDevModal] = useState(false);
 
   const handleAnalyze = async (transactions, name) => {
     setIsLoading(true);
@@ -61,7 +59,6 @@ export default function App() {
       {/* Navbar */}
       <Navbar
         onOpenOpenAIModal={() => setShowOpenAIModal(true)}
-        onOpenDevModal={() => setShowDevModal(true)}
         onReset={handleReset}
         hasData={!!analysisData}
       />
@@ -135,13 +132,6 @@ export default function App() {
       {showOpenAIModal && (
         <OpenInnovationModal
           onClose={() => setShowOpenAIModal(false)}
-        />
-      )}
-
-      {showDevModal && (
-        <DevSubmissionModal
-          analysis={analysisData ? analysisData.analysis : null}
-          onClose={() => setShowDevModal(false)}
         />
       )}
 
