@@ -22,7 +22,7 @@
 
 ## 🎥 1-Minute Video Walkthrough
 
-[![SlothFinance Demo Video](https://raw.githubusercontent.com/vidishagupta/sloth-finance/main/demo/real_frames/scene1_hero.png)](https://youtu.be/a590pPb03dM)
+[![SlothFinance Demo Video](https://raw.githubusercontent.com/vidishagupta/sloth-finance/main/public/hero.png)](https://youtu.be/a590pPb03dM)
 *(Click above to watch the 1-minute full walkthrough with AI voiceover and synchronized subtitles)*
 
 ---
