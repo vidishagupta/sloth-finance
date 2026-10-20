@@ -9,12 +9,13 @@
 [![Google Gemma 2](https://img.shields.io/badge/Google-Gemma_2_Open--Weights-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/gemma)
 [![Render](https://img.shields.io/badge/Deploy-Render_Blueprint-46e3b7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://sloth-finance-ten.vercel.app)
+[![DEV Post](https://img.shields.io/badge/DEV_Post-Read_Submission-0a0a0a?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/vidisha_gupta_/slothfinance-the-autonomous-open-source-ai-financial-tamer-that-rewards-your-laziness-5bp5)
 [![License: MIT](https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge)](LICENSE)
 [![YouTube Demo](https://img.shields.io/badge/YouTube-Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/a590pPb03dM)
 
 <br/>
 
-**[🌐 Live Demo (GitHub Pages)](https://vidishagupta.github.io/sloth-finance/)** • **[⚡ Live Mirror (Vercel)](https://sloth-finance-ten.vercel.app)** • **[🎥 Watch 1-Min Video Demo](https://youtu.be/a590pPb03dM)** • **[🚀 Render Blueprint Deploy](https://render.com)**
+**[🌐 Live Demo (GitHub Pages)](https://vidishagupta.github.io/sloth-finance/)** • **[⚡ Live Mirror (Vercel)](https://sloth-finance-ten.vercel.app)** • **[📝 DEV Submission Article](https://dev.to/vidisha_gupta_/slothfinance-the-autonomous-open-source-ai-financial-tamer-that-rewards-your-laziness-5bp5)** • **[🎥 Watch 1-Min Video Demo](https://youtu.be/a590pPb03dM)** • **[🚀 Render Blueprint Deploy](https://render.com)**
 
 </div>
 
